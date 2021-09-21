@@ -78,11 +78,8 @@ p {
 }
 
 #pricing-list.mobile-version .tr-section-content input.item-quantity {
-    width: 80%;
+    width: 70%;
 }
-
-
-
 
 #pricing-list table {
   margin: 0 auto;
@@ -235,12 +232,41 @@ p {
   #pricing-list table thead {
     display: none;
   }
-  /*
-  #pricing-list table td {
-    padding: 5px 15px;
-    display: block;
-    width: 100% !important;
-		border: none;
-		box-sizing: border-box;
-  }*/
 }
+
+#pricing-list table td {
+  padding: 10px 15px;
+}
+
+
+@media screen and (min-width: 720px){
+  #pricing-list {
+    background-color: #EFEFEF;
+    margin: 0% 8%;
+}
+/* #pricing-list table td {
+  padding: 10px 15px;
+} */
+}
+.tr-section-main-header{
+  text-align: left;
+}
+.tr-section-header tr td{
+  padding: 20px 20px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #e7e7e7;;
+}
+#pricing-list.mobile-version .tr-section-header td {
+  padding: 3px 15px;
+}
+/* onclick="priceCalculate('tr-item-5','item-unit-price-5',290)" */
+/* onchange="itemPriceCal('tr-item-5','item-unit-price-5')" */
+
+
+/* onclick="priceCalculate('tr-itemm-2','item-unit-price-1',290,1)" */
+/* onchange="itemPriceCal('tr-item-1','item-unit-price-1')" */
